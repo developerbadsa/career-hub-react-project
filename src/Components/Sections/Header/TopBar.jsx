@@ -2,6 +2,9 @@
 import { NavLink } from "react-router-dom";
 
 const TopBar = () => {
+
+
+      
   return (
     <nav className="flex justify-between">
       <div>
@@ -19,6 +22,10 @@ const TopBar = () => {
         </li>
       </ul>
     </nav>
+
+
+
+
   );
 };
 

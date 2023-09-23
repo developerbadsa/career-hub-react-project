@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import TopBar from "../Sections/Header/TopBar";
+import Footer from "../Sections/Footer/Footer";
 
 const Root = () => {
   return (
@@ -10,9 +11,7 @@ const Root = () => {
       <main className="container mx-auto">
         <Outlet></Outlet>
       </main>
-      <footer>
-            this is foter
-      </footer>
+     <Footer></Footer>
     </>
   );
 };
