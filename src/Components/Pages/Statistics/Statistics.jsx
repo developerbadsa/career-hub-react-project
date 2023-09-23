@@ -2,7 +2,9 @@ import Header from "../../Sections/Header/Header";
 
 const Statistics = () => {
       return (
-            <Header></Header>
+            <div className="bg-slate-100">
+                  <Header ></Header>
+            </div>
       );
 };
 

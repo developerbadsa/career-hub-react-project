@@ -6,7 +6,7 @@ const gradientBg = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
 
 const TopBar = () => {
   return(
-    <nav className="navbar bg-base-100 py-4 border-b">
+    <nav className="navbar container mx-auto py-4">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

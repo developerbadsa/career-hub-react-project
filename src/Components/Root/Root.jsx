@@ -5,10 +5,10 @@ import Footer from "../Sections/Footer/Footer";
 const Root = () => {
   return (
     <>
-      <header className="container mx-auto">
+      <header className="bg-slate-100">
         <TopBar></TopBar>
       </header>
-      <main className="container mx-auto">
+      <main >
         <Outlet></Outlet>
       </main>
      <Footer></Footer>

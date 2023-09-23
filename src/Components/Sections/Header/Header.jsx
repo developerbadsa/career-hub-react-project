@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Header = () => {
   const gradientBg = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
@@ -6,8 +6,8 @@ const Header = () => {
     "text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
 
   return (
-    <section className="grid grid-cols-2 py-16">
-      <div>
+    <section className="grid grid-cols-2 container mx-auto">
+      <div className="py-16">
         <h1 className="text-7xl leading-[100px] font-bold">
           One Step <br /> Closer To Your <br />{" "}
           <span className={gradientText}>Dream Job</span>
@@ -22,7 +22,7 @@ const Header = () => {
         </button>
       </div>
       <div>
-    
+            <img className="w-full bottom-0" src="https://i.ibb.co/KyqCYZF/user.png" alt="" />
       </div>
     </section>
   );
