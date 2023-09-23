@@ -1,9 +1,8 @@
+import Header from "../../Sections/Header/Header";
 
 const Statistics = () => {
       return (
-            <div>
-                  <div> This is Home page</div>
-            </div>
+            <Header></Header>
       );
 };
 
