@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "logo": "https://i.ibb.co/4JXZsNc/social-media-1.png",
+        "category_name": "Social Media",
+        "availability": "300 Jobs Available"
+    },
+    {
+        "id": 2,
+        "logo": "https://i.ibb.co/TPCTQqy/chip-1.png",
+        "category_name": "Chip Design",
+        "availability": "100+ Jobs Available"
+    },
+    {
+        "id": 3,
+        "logo": "https://i.ibb.co/7pFG1Z9/business-1.png",
+        "category_name": "Business",
+        "availability": "150 Jobs Available"
+    },
+    {
+        "id": 4,
+        "logo": "https://i.ibb.co/r3DvC75/accounts-1.png",
+        "category_name": "Account & Finance",
+        "availability": "224 Jobs Available"
+    }
+]
