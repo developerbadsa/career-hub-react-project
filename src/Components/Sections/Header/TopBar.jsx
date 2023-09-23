@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import LogoText from "../LogoSection/LogoText";
 
 const gradientText = "text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
 const gradientBg = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
@@ -40,7 +41,7 @@ const TopBar = () => {
             </li>
           </ul>
         </div>
-        <span className="text-3xl font-extrabold ">CareerHub</span>
+        <LogoText></LogoText>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-6 menu-horizontal px-1">
