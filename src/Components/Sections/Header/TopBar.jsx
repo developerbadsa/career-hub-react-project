@@ -1,18 +1,25 @@
-import React from 'react';
+
+import { NavLink } from "react-router-dom";
 
 const TopBar = () => {
-      return (
-            <nav>
-                  <div>
-                        <img src="" alt="" />
-                  </div>
-                  <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                  </ul>
-            </nav>
-      );
+  return (
+    <nav className="flex justify-between">
+      <div>
+            <span>CareerHub</span>
+      </div>
+      <ul className="flex gap-2">
+        <li>
+          <NavLink to="/">Statistics</NavLink>
+        </li>
+        <li>
+          <NavLink to="/appliedJob">Applied Jobs</NavLink>
+        </li>
+        <li>
+            <NavLink to="/blog">Blog</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 };
 
 export default TopBar;
