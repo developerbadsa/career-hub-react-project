@@ -1,5 +1,6 @@
 import Header from "../../Sections/Header/Header";
-import JobCatagories from "../../Sections/JobCatagory/JobCatagories";
+import FeaturedJob from "./Sections/FeaturedJob/FeaturedJob";
+import JobCatagories from "./Sections/JobCatagory/JobCatagories";
 
 const Statistics = () => {
   return (
@@ -8,6 +9,7 @@ const Statistics = () => {
         <Header></Header>
       </div>
       <JobCatagories></JobCatagories>
+      <FeaturedJob></FeaturedJob>
     </>
   );
 };
