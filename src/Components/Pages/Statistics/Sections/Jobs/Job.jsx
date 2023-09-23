@@ -20,7 +20,7 @@ const Job = ({ job }) => {
   console.log(location);
 
   return (
-    <div className="border rounded-lg px-8 py-4 h-full">
+    <div className="border rounded-lg px-8 py-4">
       <img className="my-12"
         src={logo}
         alt={company_name}
