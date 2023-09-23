@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 
 const TopBar = () => {
-  return (
-    <nav className="navbar bg-base-100">
+  return(
+    <nav className="navbar bg-base-100 py-4 border-b">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,7 +59,7 @@ const TopBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn font-bold text-lg text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+        <a className="btn btn-md font-bold text-md text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
           Start Applying
         </a>
       </div>
