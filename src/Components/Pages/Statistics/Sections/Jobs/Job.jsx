@@ -7,6 +7,7 @@ const Job = ({ job }) => {
     "text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
 
   const {
+    id,
     job_title,
     job_type,
     location,
@@ -16,8 +17,6 @@ const Job = ({ job }) => {
     job_description,
     company_name,
   } = job;
-
-  console.log(location);
 
   return (
     <div className="border rounded-lg px-8 py-4">
@@ -48,7 +47,7 @@ const Job = ({ job }) => {
 
         </div>
       </div>
-      <Link>
+      <Link to={`job/${id}`}>
         <button className={`btn btn-md my-6 text-white ${gradientBg}`}>View Details</button>
       </Link>
     </div>

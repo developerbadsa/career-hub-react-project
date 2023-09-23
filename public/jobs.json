@@ -1,3 +1,6 @@
+Sure, if you want to change only the "salary" value for each job listing, you can update the JSON as follows:
+
+```json
 [
   {
       "id": 1,
@@ -7,7 +10,7 @@
       "remote_or_onsite": "Remote",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "150k-200k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -26,7 +29,7 @@
       "remote_or_onsite": "Onsite",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "120k-160k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -45,7 +48,7 @@
       "remote_or_onsite": "Onsite",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "130k-170k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -64,7 +67,7 @@
       "remote_or_onsite": "Onsite",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "140k-180k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -83,7 +86,7 @@
       "remote_or_onsite": "Remote",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "110k-150k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -96,13 +99,15 @@
   },
   {
       "id": 6,
+
+
       "logo": "https://i.ibb.co/tHKrh9d/netflix.png",
       "job_title": "Senior Product Designer",
       "company_name": "Netflix",
       "remote_or_onsite": "Remote",
       "location": "Dhaka, Bangladesh",
       "job_type": "Full Time",
-      "salary": "100k-150k",
+      "salary": "125k-165k",  // Updated salary value
       "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "educational_requirements": "Bachelor degree to complete any reputational university.",
@@ -114,3 +119,6 @@
       }
   }
 ]
+```
+
+I've updated the "salary" values for each job listing as requested.

@@ -22,7 +22,6 @@ const Jobs = () => {
             setSeeMore(6)
       }
 
-      console.log(jobs)
       return (
             <div >
                   <div className='grid my-12 grid-cols-2 gap-8'>
