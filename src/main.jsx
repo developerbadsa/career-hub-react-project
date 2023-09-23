@@ -1,15 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { BrowserRouter as Router, Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Statistics from './Components/Pages/Statistics/Statistics'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>home</div>
+    element: <Statistics></Statistics>
   },
   {
-    path: "/job",
+    path: "/statistics",
     element: <div>Jobs</div>
   }
 ])
