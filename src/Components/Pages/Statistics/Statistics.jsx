@@ -8,8 +8,10 @@ const Statistics = () => {
       <div className="bg-slate-100">
         <Header></Header>
       </div>
-      <JobCatagories></JobCatagories>
-      <FeaturedJob></FeaturedJob>
+      <div className="container mx-auto">
+        <JobCatagories></JobCatagories>
+        <FeaturedJob></FeaturedJob>
+      </div>
     </>
   );
 };
