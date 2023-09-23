@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 const JobDetail = () => {
 
+      const gradientBg = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF]";
       const job = useLoaderData()
 
       const { id } = useParams();
@@ -13,12 +14,12 @@ const JobDetail = () => {
       const { phone, email, address } = contact_information;
 
       return (
-            <div className="container mx-auto">
+            <div className="container mx-auto py-8">
                   <h2 className="py-40 text-center text-3xl font-bold">Job Details</h2>
 
 
                   <div className="grid grid-cols-3">
-                        <div className="col-span-2 grid gap-8">
+                        <div className="col-span-2 px-6 flex flex-col gap-10">
                               <div className="text-base">
                                     <span className="font-bold">Job Description:</span> {job_description}
                               </div>
@@ -26,14 +27,14 @@ const JobDetail = () => {
                                     <span className="font-bold">Job Responsibility:</span> {job_responsibility}
                               </div>
                               <div className="text-base">
-                                    <span className="font-bold">Educational Requirements:</span>  {educational_requirements}
+                                    <span className="font-bold">Educational Requirements:</span> <br /> {educational_requirements}
                               </div>
                               <div className="text-base ">
-                                    <span className="font-bold">Experiences::</span> {experiences}
+                                    <span className="font-bold">Experiences:</span> <br /> {experiences}
                               </div>
                         </div>
-                        <div className="bg-pink-50 p-8 text-xl rounded">
-                              <h3 className="text-2xl font-extrabold">Job Details</h3>
+                        <div className="bg-pink-50 p-8 text-xl rounded my-2">
+                              <h3 className="text-2xl font-extrabold border-b py-4">Job Details</h3>
                               <div className="flex gap-2 my-4">
                                     <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +103,7 @@ const JobDetail = () => {
                               <div className="border-b ">
                                     <h4 className="py-8 text-2xl font-extrabold">Contact Information</h4>
                               </div>
-                              <div className="grid gap-6">
+                              <div className="grid gap-6 my-2">
                                     <div className="flex pt-7 gap-2">
                                           <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -191,10 +192,10 @@ const JobDetail = () => {
                                                       </linearGradient>
                                                 </defs>
                                           </svg>
-                                          <span className="text-xl font-extrabold">Address:</span> {address}
+                                          <span className="text-xl font-extrabold">Address:</span>  {address}
                                     </div>
 
-
+                              <button className={`btn btn-md my-4 text-white ${gradientBg}`}>Apply Now</button>
                               </div>
 
 
