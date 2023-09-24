@@ -20,7 +20,7 @@ const Job = ({ job }) => {
 
   return (
     <div className="border rounded-lg px-8 py-4">
-      <img className="my-12"
+      <img className="my-12 w-48"
         src={logo}
         alt={company_name}
       />
