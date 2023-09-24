@@ -22,7 +22,7 @@ const Header = () => {
         </button>
       </div>
       <div>
-            <img className="w-full bottom-0" src="https://i.ibb.co/KyqCYZF/user.png" alt="" />
+            <img className="w-full bottom-0" src="https://github.com/developerbadsa/career-hub-resourses/blob/main/assets/images/user.png?raw=true" alt="" />
       </div>
     </section>
   );
