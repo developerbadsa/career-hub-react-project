@@ -11,7 +11,7 @@ const Jobs = () => {
 
 
       useEffect(() => {
-            fetch('../../../../../../public/jobs.json')
+            fetch('https://raw.githubusercontent.com/developerbadsa/career-hub-resourses/main/data/jobs.json')
                   .then(res => res.json())
                   .then(data => setJobs(data))
       }, [])
